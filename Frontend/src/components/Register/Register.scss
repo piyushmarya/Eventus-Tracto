@@ -1,0 +1,29 @@
+.register{
+    .steps{
+        display: flex;
+        justify-content: center;
+        .width{
+            width: 10vw;
+        }
+        .card-step{
+            display: inline;
+            margin-top: 3vh;
+            vertical-align: middle;
+            line-height: 10px;
+            font-weight: 500;
+            height: 10px;
+            width: 10px;
+            padding: 15px;
+            margin-bottom: 10vh;
+            background-color: #367efd;
+            color: white;
+            max-width: fit-content;
+            opacity: 0.6;
+        }
+        .active{
+            background-color: #367efd;
+            opacity: 1;
+        }
+    }
+}
+

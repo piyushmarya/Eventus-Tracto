@@ -1,0 +1,92 @@
+.generate{
+    .id{
+       margin: 3vh;
+        width: fit-content;
+        margin: auto;
+        text-align: center;
+        font-weight: 500;
+        border-radius: 5px;
+        padding-bottom: 2vh;
+        .thank-you{
+            font-size: 42px;
+        }
+        .id-card{
+            border: 2px solid black;
+            width: max-content;
+            border-radius: 10px;
+            margin: auto;
+            .event-name{
+                font-size: 42px;
+                padding: 1vh;
+                padding-bottom: 10vh;
+            }
+            .username{
+                padding-top: 10vh;
+                font-size: larger;
+                margin-bottom: 1vh;
+            }
+        }
+        .message{
+            padding-bottom: 5vh;
+            .event-name{
+                cursor: pointer;
+                color: tomato;
+                &:hover{
+                    color: red;
+                }
+            }
+            .registration-number{
+                cursor: pointer;
+                color: #177ef5;
+                text-decoration: underline;
+                &:hover{
+                    color: blue;
+                }
+            }
+        }
+        .event{
+            width: 100%;
+            text-transform: uppercase;
+            font-size: 2rem;
+            margin-bottom: 5vh;
+            background-color: #177ef5;
+        }
+        .name{
+            text-transform: uppercase;
+            font-weight: 400;
+            margin-bottom: 5vh;
+            font-size: 20px;
+            padding: 1vh;
+            
+        }
+        .image{
+            padding: 10px 20px;
+            height:200px;
+            width:200px;
+            margin: auto;
+            img{
+                height:100%;
+                width:100%;
+               border-radius: 50% ;
+            }
+        }
+    }
+    .download{
+        display: block;
+        margin: auto;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        font-weight: 500;
+        background-color: tomato;
+        transition-duration: 200ms;
+        border-radius: 2px;
+        color: white;
+        cursor: pointer;
+        border: none;
+        &:hover{
+            background-color: #b13b2d;
+        }
+    }
+}
